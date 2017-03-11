@@ -31,6 +31,10 @@ Please make sure PHP and Web server run as Root user, or the Web server user hav
 1. Bind DNS name ```my.tv``` to your Linux board.
 1. Enjoy it.
 
+# Known issues
+* No compatible for hardware decoding.
+* Only support PAL TV standard, can modify ```mplayer.php``` and ```screens``` to support NTSC or 1080p.
+
 # License
 * BILIBILI API: https://github.com/konatatenshi/bilibilihtml5player Apache-2.0
 * TV-Pi: https://github.com/dfc643/TV-Pi GPLv3
