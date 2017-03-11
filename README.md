@@ -1,4 +1,4 @@
-# TV-Pi
+# TV-Pi (RetiaTV)
 A Pure-Linux based TV live client solution for Linux development boards. (such as OrangePi, RaspberryPi etc.)
 
 # Requirements
@@ -13,17 +13,17 @@ Please make sure PHP and Web server run as Root user, or the Web server user hav
 
 # Quick Start
 1. Install required packages in Linux system.
-```bash
-sudo apt-get update
-sudo apt-get install -y mplayer
-sudo apt-get install -y nginx php5-fpm   #NGINX web server
-```
+    ```bash
+    sudo apt-get update
+    sudo apt-get install -y mplayer
+    sudo apt-get install -y nginx php5-fpm   #NGINX web server
+    ```
 1. Make your web server working and change user permissions.
 1. Clone files into web server root directory.
-```bash
-cd /var/www
-git clone https://github.com/dfc643/TV-Pi tv
-```
+    ```bash
+    cd /var/www
+    git clone https://github.com/dfc643/TV-Pi tv
+    ```
 1. Bind DNS name ```my.tv``` to your Linux board.
 1. Enjoy it.
 
