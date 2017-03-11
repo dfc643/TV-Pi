@@ -1,0 +1,9 @@
+body {background: #f0f0f0;}
+.livestream, .chMain {width: 100%; overflow:auto;}
+.livestream {margin: 2px 1%;}
+.channel,.btn-go {float:left; height: 40px; line-height:40px; border: 2px solid #e5e5e5; background: #fafafa; text-align:center; color:#555;}
+.channel {width: 46%; margin:2px 1%;}
+.btn-go {width: 15%; margin-left: 2%;}
+.channel:hover,.btn-go:hover {background:#00aafc; color:#fff;}
+#liveid {height:38px; line-height:38px; float:left; width: 51%; border:none; margin-top:2px; padding: 0 5%; font-size: 0.8em;}
+.mpSta {width:100%; height:40px; line-height:40px; text-align:center;}
